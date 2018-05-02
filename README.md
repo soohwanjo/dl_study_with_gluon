@@ -1,4 +1,9 @@
-## Deep Learning Study with Gluon
+## Deep Learning Study with Gluon2 (2018.03 ~ )
+[https://github.com/ski-net/dl_study_with_gluon_2nd](https://github.com/ski-net/dl_study_with_gluon_2nd)
+
+-----
+
+## Deep Learning Study with Gluon (2017.12 ~ 2018.03)
 
 Deep learning to learn while making
 
@@ -16,12 +21,13 @@ Deep learning to learn while making
 | [RNNs with Audio Classification](Recurrent/)(0h30m), [CAM with Traffic Sign Classification](Convolution/Traffic%20Sign.ipynb)(0h 20m) | 02/01,18:00  | 분석실 |hongdm7, June-H  |  
 | [Pix2Pix](GAN/pix2pix.ipynb)(0h25m), [Deep Matrix Factorization](https://github.com/ski-net/dl_study_with_gluon/blob/master/Recommendation/180214_Deep_Matrix_Factorizaiton.ipynb) (0h20m) | 02/08,18:00  | 분석실 |soeque1, ljy3795, kionkim   |
 | [introduction Deep Learning references](reference/dl_reference.md)  | 03/14,12:00  | 분석실 |  seujung |
-| [Soft Decision Tree](soft_decision_tree/notebooks/soft_decision_tree_ver_2.ipynb) (0h30m),  [BEGAN](GAN/BEGAN_Example_dim64_gluon.ipynb) (0h20m), [Deep Dream](Deep_dream/deep_dream.ipynb) (0h20m)  | 02/22,18:00  | 분석실 |kionkim, seujung, soohwanjo |
+| [Soft Decision Tree](soft_decision_tree/notebooks/soft_decision_tree_ver_2.ipynb) (0h30m),   [Deep Dream](Deep_dream/deep_dream.ipynb) (0h20m)  | 02/22,18:00  | 분석실 |kionkim, soohwanjo |
 | [Korean-English Neural Machine Translater](https://github.com/haven-jeon/ko_en_neural_machine_translation)(0h40m)  | 02/28,18:00  | 분석실 |haven-jeon  |
-| IntegratedGradients (0h30m), CapsNet (0h30m),[QA- Multimodal Compact Bilinear Pooling](QA/Question_Answering_in_gluon.ipynb) (0h30m) | 03/08,18:00  | 분석실 | kionkim  |
-| relational network, Reinforcement Learning  | 03/15,18:00  | 분석실 |seujung, (hongdm7, June-H, hyemin15, soohwanjo)  5 |
-| Anomaly detection w Autoencoder  | 03/22,18:00  | 분석실 |ljy3795   |
-| ...  | 03/29,18:00  | 분석실 |   |
+| [IntegratedGradients](Convolution/multi_gpu_transfer_cats_and_dogs_cam_grad_cam_integrated-gradients.ipynb) (0h20m), [BEGAN](GAN/BEGAN) (0h20m),[QA- Multimodal Compact Bilinear Pooling](QA/notebooks) (0h45m) | 03/08,18:00  | 분석실 | kionkim, seujung , hyemin15, soeque1  |
+| 1차 롤 아웃/2차 스터디 계획 수립 | 03/13,12:00  | 분석실 |  |
+|  Deep Q-Network(0h30m), Double Deep Q-Network, Policy Gradient  | 03/15,18:00  | 분석실 |hongdm7, soohwanjo, June-H |
+| Anomaly detection w Autoencoder, CapsNet(0h30m)  | 03/22,18:00  | 분석실 |ljy3795, kionkim   |
+| relational network,  | 03/29,18:00  | 분석실 | seujung |
 
 
 
@@ -60,11 +66,12 @@ Deep learning to learn while making
 
 
 - [Image classification with MNIST](Convolution/MNIST.ipynb) (@soohwanjo)
-- Image classification with CIFAR10 (@soohwanjo)
 
 - Image classification with 62 classes Traffic Sign (@June-H)
 
 - [Medical Image Segmentation](Convolution/FCN_Alexnet_using_Gluon.ipynb) (@supark)
+
+- Super resolution (@soohwanjo)
 
 - AlexNet
   - https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf
@@ -111,7 +118,6 @@ Deep learning to learn while making
 
 ### Autoencoder
 - [simple & conv. Autoencoder](autoencoder/Autoencoder_w_gluon.ipynb) (@ljy3795)
-- Recommendation with Aucoencoder (@soohwanjo)
 - Anomaly detection with Autoencoder (@ljy3795)
 
 ### Audio
@@ -119,6 +125,7 @@ Deep learning to learn while making
 
 ### Recommandation
 - [Deep Matrix Factorization](https://github.com/ski-net/dl_study_with_gluon/blob/master/Recommendation/180214_Deep_Matrix_Factorizaiton.ipynb) (@ljy3795)
+- [Deep Matrix Factorization -- Fix InnerProduct Calculations](https://github.com/su-park/dl_study_with_gluon/blob/master/Recommendation/Deep%20Matrix%20Factorization%20using%20Gluon.ipynb) (@supark)
 
 ### XAI
 - The Bayesian Case Model: A Generative Approach for Case-Based Reasoning and Prototype Classification (@kionkim)
@@ -156,12 +163,11 @@ Deep learning to learn while making
 ### QA
 - relational network (@seujung)
   - https://arxiv.org/pdf/1706.01427.pdf
-- Visual Question Answering (@kionkim, @hyemin15)
-  - https://arxiv.org/pdf/1505.00468.pdf
+- [Visual Question Answering](QA/notebooks) (@kionkim, @hyemin15)
 
 ### Reinforcement Learning
-- DQN(Deep Q-Network)
-
+- DQN(Deep Q-Network) (@hongdm7)
+- DDQN(Double Deep Q-Network) (@soohwanjo)
 
 ## Reference
 
